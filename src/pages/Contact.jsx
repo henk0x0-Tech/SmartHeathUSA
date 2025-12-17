@@ -28,8 +28,9 @@ export default function Contact() {
     return (
         <div className="bg-slate-50 min-h-screen">
             <Helmet>
-                <title>Contact Us | Smart Health USA</title>
-                <meta name="description" content="Get in touch with Smart Health USA team." />
+                <title>Contact Smart Health USA</title>
+                <meta name="description" content="Contact Smart Health USA for questions, feedback, or collaboration opportunities." />
+                <link rel="canonical" href="https://smarthealthusa.netlify.app/contact" />
             </Helmet>
 
             <div className="container mx-auto px-4 py-16 max-w-4xl">

@@ -114,6 +114,7 @@ export default function BlogPost() {
             <Helmet>
                 <title>{post.title} | Smart Health USA</title>
                 <meta name="description" content={`Read about ${post.title} on Smart Health USA.`} />
+                <link rel="canonical" href={`https://smarthealthusa.netlify.app/blog/${slug}`} />
             </Helmet>
 
             {/* Header */}

@@ -4,8 +4,9 @@ export default function About() {
     return (
         <div className="bg-white">
             <Helmet>
-                <title>About Us | Smart Health USA</title>
-                <meta name="description" content="Learn about Smart Health USA and our mission to educate about metabolic health." />
+                <title>About Smart Health USA – Our Mission</title>
+                <meta name="description" content="Learn about Smart Health USA and our mission to provide science-based wellness education." />
+                <link rel="canonical" href="https://smarthealthusa.netlify.app/about" />
             </Helmet>
 
             <div className="container mx-auto px-4 py-20 max-w-3xl">

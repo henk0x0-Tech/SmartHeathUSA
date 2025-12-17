@@ -58,8 +58,9 @@ export default function Blog() {
     return (
         <div className="bg-slate-50 min-h-screen">
             <Helmet>
-                <title>Health & Wellness Blog | Smart Health USA</title>
-                <meta name="description" content="Read our latest articles on metabolism, mitochondrial health, and sustainable weight management tips." />
+                <title>Health & Wellness Blog – Smart Health USA</title>
+                <meta name="description" content="Read science-based health, metabolism, and fitness articles written for USA readers." />
+                <link rel="canonical" href="https://smarthealthusa.netlify.app/blog" />
             </Helmet>
 
             {/* Header */}
@@ -108,6 +109,14 @@ export default function Blog() {
                         </Link>
                     </div>
                 )}
+
+                <div className="mb-16 text-center bg-brand-light/30 py-10 rounded-3xl mx-4 lg:mx-0">
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">New to Metabolic Health?</h3>
+                    <p className="text-slate-600 mb-6 max-w-xl mx-auto">Start with our comprehensive guide to understand the basics of mitochondria and energy.</p>
+                    <Link to="/metabolism-guide" className="text-brand-dark font-bold hover:text-brand-teal text-lg border-b-2 border-brand-dark hover:border-brand-teal transition-all pb-0.5">
+                        Read our complete Metabolism Guide
+                    </Link>
+                </div>
 
                 {/* Regular Grid */}
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

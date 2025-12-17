@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import EducationSection from "../components/EducationSection";
 import FeaturedBlog from "../components/FeaturedBlog";
@@ -38,6 +39,11 @@ export default function Home() {
         {/* FEATURED BLOG */}
         <section className="w-full bg-slate-50 py-16">
           <FeaturedBlog />
+          <div className="container mx-auto px-4 text-center mt-8">
+            <Link to="/blog" className="text-slate-900 font-bold hover:text-brand-teal transition-colors border-b-2 border-brand-teal pb-1">
+              Read our latest health articles
+            </Link>
+          </div>
         </section>
 
         {/* PRODUCT / GUIDE */}

@@ -5,8 +5,9 @@ export default function MetabolismGuide() {
     return (
         <div className="bg-white">
             <Helmet>
-                <title>Metabolism Guide | Smart Health USA</title>
-                <meta name="description" content="A comprehensive guide to understanding your metabolism, mitochondrial health, and how to improve energy levels naturally." />
+                <title>Metabolism Guide – Smart Health USA</title>
+                <meta name="description" content="A beginner-friendly guide explaining metabolism and how to support it naturally." />
+                <link rel="canonical" href="https://smarthealthusa.netlify.app/metabolism-guide" />
             </Helmet>
 
             <div className="bg-brand-light/30 py-16">
