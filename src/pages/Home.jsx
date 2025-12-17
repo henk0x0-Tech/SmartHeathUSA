@@ -20,9 +20,13 @@ function Home() {
         />
       </Helmet>
 
-      {/* existing content */}
       <div>
-        <h1>Welcome to Smart Health USA</h1>
+        <h1>Smart Health USA</h1>
+        <h2>Welcome to Smart Health USA</h2>
+        <p>
+          Empowering you with science-backed knowledge about metabolism,
+          mitochondrial health, and sustainable weight management.
+        </p>
       </div>
     </>
   );
