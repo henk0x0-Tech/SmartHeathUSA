@@ -1,22 +1,31 @@
-import Hero from '../components/Hero';
-import EducationSection from '../components/EducationSection';
-import FeaturedBlog from '../components/FeaturedBlog';
-import SoftProductSection from '../components/SoftProductSection';
-import TrustTransparency from '../components/TrustTransparency';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
-export default function Home() {
-    return (
-        <>
-            <Helmet>
-                <title>Smart Health USA | Unlock Your Metabolic Power Naturally</title>
-                <meta name="description" content="Discover how to burn more calories and boost energy naturally. Learn about mitochondrial health and metabolic flexibility without extreme dieting." />
-            </Helmet>
-            <Hero />
-            <EducationSection />
-            <FeaturedBlog />
-            <SoftProductSection />
-            <TrustTransparency />
-        </>
-    );
+function Home() {
+  return (
+    <>
+      <Helmet>
+        <title>Smart Health USA – Science-Based Wellness</title>
+
+        <meta
+          name="description"
+          content="Smart Health USA provides evidence-based wellness, metabolism, fitness, and health education for USA readers."
+        />
+
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Smart Health USA" />
+
+        <link
+          rel="canonical"
+          href="https://smarthealthusa.netlify.app/"
+        />
+      </Helmet>
+
+      {/* existing content */}
+      <div>
+        <h1>Welcome to Smart Health USA</h1>
+      </div>
+    </>
+  );
 }
+
+export default Home;
