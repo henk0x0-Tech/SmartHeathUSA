@@ -2,9 +2,15 @@ import { Helmet } from 'react-helmet-async';
 
 const CTA = () => (
     <div className="my-10 text-center not-prose">
-        <button className="bg-brand-teal text-white text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:bg-brand-tealDark transition-colors w-full sm:w-auto">
-            Access the Metabolic Power Program
-        </button>
+        <a
+            href="https://mitolyn.com/welcome/?hop=saverprous&hopId=90948ec7-5640-403b-8921-ecfd886df8e7&&traffic_source=blog&traffic_type=seo&campaign=homepage&creative=cta"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <button className="bg-brand-teal text-white text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:bg-brand-tealDark transition-colors w-full sm:w-auto cursor-pointer">
+                Access the Metabolic Power Program
+            </button>
+        </a>
         <p className="text-xs text-slate-400 mt-3 font-medium">
             Educational information only • No extreme diets • Results may vary
         </p>
