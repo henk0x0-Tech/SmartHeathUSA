@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smarthealthusa.netlify.app/sitemap.xml
