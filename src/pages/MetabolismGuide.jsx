@@ -1,5 +1,15 @@
 import { Helmet } from 'react-helmet-async';
-import SoftProductSection from '../components/SoftProductSection';
+
+const CTA = () => (
+    <div className="my-10 text-center not-prose">
+        <button className="bg-brand-teal text-white text-xl font-bold py-4 px-8 rounded-full shadow-lg hover:bg-brand-tealDark transition-colors w-full sm:w-auto">
+            Access the Metabolic Power Program
+        </button>
+        <p className="text-xs text-slate-400 mt-3 font-medium">
+            Educational information only • No extreme diets • Results may vary
+        </p>
+    </div>
+);
 
 export default function MetabolismGuide() {
     return (
@@ -46,16 +56,18 @@ export default function MetabolismGuide() {
                         </p>
                     </div>
 
+                    <CTA />
+
                     <h3>3 Simple Ways to Support Your Metabolism</h3>
                     <ul>
                         <li><strong>Prioritize Protein:</strong> It has a high thermic effect, meaning your body burns more calories digesting it.</li>
                         <li><strong>Get Enough Sleep:</strong> Sleep deprivation can disrupt hormones that regulate hunger and metabolism.</li>
                         <li><strong>Stay Hydrated:</strong> Water is essential for burning calories. Even mild dehydration can slow down metabolism.</li>
                     </ul>
+
+                    <CTA />
                 </article>
             </div>
-
-            <SoftProductSection />
         </div>
     );
 }
