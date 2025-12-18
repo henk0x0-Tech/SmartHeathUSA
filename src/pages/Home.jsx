@@ -56,6 +56,14 @@ export default function Home() {
           <TrustTransparency />
         </section>
 
+        {/* SEO INTERNAL LINKS */}
+        <section className="w-full py-4 bg-white text-center border-t border-slate-100">
+          <div className="container mx-auto px-4 space-x-6 text-sm text-slate-500">
+            <Link to="/blog" className="hover:text-slate-900 transition-colors">Read our health blog</Link>
+            <Link to="/blog/low-metabolism" className="hover:text-slate-900 transition-colors">Low Metabolism Guide</Link>
+          </div>
+        </section>
+
       </main>
     </>
   );
