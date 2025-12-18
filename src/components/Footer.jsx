@@ -18,6 +18,7 @@ export default function Footer() {
                             <li><Link to="/contact" className="hover:text-brand-teal transition-colors text-sm">Contact Us</Link></li>
                             <li><Link to="/guide" className="hover:text-brand-teal transition-colors text-sm">Metabolism Guide</Link></li>
                             <li><Link to="/blog" className="hover:text-brand-teal transition-colors text-sm">Latest Articles</Link></li>
+                            <li><Link to="/sitemap" className="hover:text-brand-teal transition-colors text-sm">Sitemap</Link></li>
                         </ul>
                     </div>
                     <div>

@@ -7,6 +7,7 @@ import MetabolicHealthGuide from './pages/MetabolicHealthGuide';
 import MetabolismGuide from './pages/MetabolismGuide';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Sitemap from './pages/Sitemap';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/guide" element={<MetabolismGuide />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/sitemap" element={<Sitemap />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Layout>
