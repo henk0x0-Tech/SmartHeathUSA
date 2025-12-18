@@ -10,6 +10,7 @@ const blogContent = {
         date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
         readTime: "6 min read",
         category: "Weight Loss",
+        excerpt: "You’re eating right and exercising, but the scale won't budge. Discover the hidden cellular reasons behind weight loss resistance.",
         content: (
             <>
                 <p className="lead text-xl text-slate-600 mb-8">You’re eating right and exercising, but the scale won't budge. Discover the hidden cellular reasons why your metabolism might be stuck in neutral.</p>
@@ -46,6 +47,7 @@ const blogContent = {
         date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
         readTime: "5 min read",
         category: "Nutrition",
+        excerpt: "Add these nutrient-dense foods to your diet to help your cells produce cleaner, more efficient energy.",
         content: (
             <>
                 <p className="lead text-xl text-slate-600 mb-8">Your cells are hungry for the right fuel. Add these nutrient-dense foods to your diet to help them produce cleaner, more efficient energy.</p>
@@ -79,6 +81,7 @@ const blogContent = {
         date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
         readTime: "7 min read",
         category: "Lifestyle",
+        excerpt: "Is skipping breakfast actually good for your energy levels? Science suggests it might be beneficial for some.",
         content: (
             <>
                 <p className="lead text-xl text-slate-600 mb-8">Is skipping breakfast actually good for your energy levels? Science suggests it might be beneficial for metabolic flexibility.</p>
@@ -92,6 +95,7 @@ const blogContent = {
         date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
         readTime: "4 min read",
         category: "Health",
+        excerpt: "Chronic stress doesn't just feel bad—it can physically alter how your body processes and stores fat.",
         content: (
             <>
                 <p className="lead text-xl text-slate-600 mb-8">Chronic stress doesn't just feel bad—it can physically alter how your body processes and stores fat.</p>
@@ -113,7 +117,7 @@ export default function BlogPost() {
         <article className="bg-white min-h-screen pb-20">
             <Helmet>
                 <title>{post.title} | Smart Health USA</title>
-                <meta name="description" content={`Read about ${post.title} on Smart Health USA.`} />
+                <meta name="description" content={post.excerpt || `Read about ${post.title} on Smart Health USA. Learn more about metabolic health and natural wellness.`} />
                 <link rel="canonical" href={`https://smarthealthusa.netlify.app/blog/${slug}`} />
             </Helmet>
 
