@@ -8,6 +8,8 @@ import MetabolismGuide from './pages/MetabolismGuide';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Sitemap from './pages/Sitemap';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Disclaimer from './pages/Disclaimer';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Layout>
