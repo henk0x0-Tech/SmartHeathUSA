@@ -38,12 +38,15 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Decorative Background Elements */}
-            <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 opacity-30 pointer-events-none">
+            {/* Decorative Background Elements - Desktop Only (Heavy Computation) */}
+            <div className="hidden md:block absolute top-0 left-0 w-full h-full overflow-hidden -z-10 opacity-30 pointer-events-none">
                 <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-brand-light rounded-full blur-3xl mix-blend-multiply filter animate-blob"></div>
                 <div className="absolute top-40 -right-40 w-[500px] h-[500px] bg-teal-100 rounded-full blur-3xl mix-blend-multiply filter animate-blob animation-delay-2000"></div>
                 <div className="absolute bottom-40 left-20 w-[400px] h-[400px] bg-sky-100 rounded-full blur-3xl mix-blend-multiply filter animate-blob animation-delay-4000"></div>
             </div>
+
+            {/* Mobile-Optimized Background (Lightweight) */}
+            <div className="md:hidden absolute top-0 left-0 w-full h-full -z-10 bg-gradient-to-b from-brand-light/40 to-white"></div>
         </section>
     );
 }

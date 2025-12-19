@@ -12,10 +12,13 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Disclaimer from './pages/Disclaimer';
 import ScrollToTop from './components/ScrollToTop';
 
+import AdSenseLoader from './components/AdSenseLoader';
+
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <AdSenseLoader />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
