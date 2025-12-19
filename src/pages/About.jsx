@@ -24,8 +24,8 @@ export default function About() {
 
                     <h2>Our Mission</h2>
                     <p>
-                        Our mission is to help readers better understand their bodies so they can make more informed, sustainable health decisions over time.
-                        We focus on education first — not trends, fear, or unrealistic promises.
+                        Our mission is to help readers better understand how metabolism works so they can make informed, sustainable health decisions over time.
+                        We focus on education, lifestyle awareness, and practical knowledge rather than quick fixes or extreme approaches.
                     </p>
 
                     <h2>Why Trust Smart Health USA?</h2>
@@ -52,7 +52,7 @@ export default function About() {
                         <p className="text-slate-600">
                             We do not provide medical advice, diagnosis, or treatment.
                             Information shared on this site is intended for general knowledge only.
-                            For personal health concerns, readers should consult a qualified health professional.
+                            For personal health concerns, consult a qualified professional.
                         </p>
                     </div>
                 </article>
