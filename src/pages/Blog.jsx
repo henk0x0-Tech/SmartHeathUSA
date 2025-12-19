@@ -49,6 +49,17 @@ export default function Blog() {
             author: "Smart Health USA",
             readTime: "4 min read",
             isFeatured: false
+        },
+        {
+            id: 5,
+            slug: "slow-metabolism-signs",
+            title: "Why Do I Feel So Tired? 5 Hidden Signs of Slow Metabolism",
+            excerpt: "Fatigue, weight gain, and brain fog aren't just 'normal aging.' They could be signs your metabolic engine needs a tune-up.",
+            category: "Metabolic Health",
+            date: currentDate,
+            author: "Smart Health USA",
+            readTime: "8 min read",
+            isFeatured: false
         }
     ];
 
