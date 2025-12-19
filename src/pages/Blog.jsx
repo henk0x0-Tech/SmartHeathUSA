@@ -35,7 +35,7 @@ export default function Blog() {
             excerpt: "Is skipping breakfast actually good for your energy levels? Science suggests it might be beneficial for some.",
             category: "Lifestyle",
             date: currentDate,
-            author: "Dr. Sarah Mitchell",
+            author: "Smart Health USA",
             readTime: "7 min read",
             isFeatured: false
         },
@@ -59,6 +59,17 @@ export default function Blog() {
             date: currentDate,
             author: "Smart Health USA",
             readTime: "8 min read",
+            isFeatured: false
+        },
+        {
+            id: 6,
+            slug: "how-metabolism-works",
+            title: "How Metabolism Works (Explained in Simple Terms)",
+            excerpt: "Confused about metabolism? We break down exactly how your body creates energy and what factors truly influence your metabolic rate.",
+            category: "Metabolic Health",
+            date: currentDate,
+            author: "Smart Health USA",
+            readTime: "10 min read",
             isFeatured: false
         }
     ];
