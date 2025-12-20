@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function AdSenseLoader() {
+export default function MonetizationLoader() {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
